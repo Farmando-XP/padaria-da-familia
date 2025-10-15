@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: brow;
+}
+
+:root {
+    --yellow: #FFEE32;
+    --orange: #E87722;
+    --brown: #BD5532;
+    --light-brown: #F4D1AE;
+    --white: #FFF9F0;
+}

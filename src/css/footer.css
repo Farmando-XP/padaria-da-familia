@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: brow;
+}
+
+:root {
+    --yellow: #FFEE32;
+    --orange: #E87722;
+    --brown: #BD5532;
+    --light-brown: #F4D1AE;
+    --white: #FFF9F0;
+}
+
+footer {
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 40px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: var(--fonte-principal);
+}
+
+.footer-secao {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px; 
+    flex-grow: 1;
+    margin: 10px 0;
+    gap: 10px; 
+}
+
+.footer-secao .titulo-secao {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px; 
+    color: var(--white);
+}
+
+
+
+.logo-direitos {
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: 120px; 
+    gap: 0; 
+}
+
+.logo-direitos img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.logo-direitos p {
+    font-size: 16px; 
+    font-weight: 400;
+}
+
+.endereco p {
+    font-size: 16px; 
+    font-weight: 400;
+}
+
+.redes-sociais .titulo-secao {
+    font-size: 20px; 
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.redes-sociais a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 16px; 
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.redes-sociais a img {
+    width: 20px; 
+    height: 20px;
+}
